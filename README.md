@@ -1,7 +1,20 @@
 # jQuery OnOff Rails [![Gem Version](https://badge.fury.io/gh/berikin%2Fjquery-onoff-rails.svg)](https://badge.fury.io/gh/berikin%2Fjquery-onoff-rails.svg)[![Build Status](https://travis-ci.org/berikin/jquery-onoff-rails.svg?branch=v0.4.0)](https://travis-ci.org/berikin/jquery-onoff-rails)
-Rails wrapper for the jQuery OnOff plugin
+Rails wrapper for the jQuery OnOff plugin, transform checkboxes into toggle switches.
 
 ![demo](demo/onoff.gif)
+
+
+[From original jQuery OnOff repository:](https://github.com/timmywil/jquery.onoff)
+
+Toggle switches made for the web are often solely constructed
+to change when clicked or tapped,
+animating side-to-side as they toggle.
+That's a good start, but some people like to *slide* toggle
+switches.
+Javascript is used for creation and for adding the sliding functionality, but
+the toggle is purely CSS.
+
+Customize the look of your toggle switch using [proto.io's generator](http://proto.io/freebies/onoff/).
 
 ## Installation
 

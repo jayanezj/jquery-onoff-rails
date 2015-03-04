@@ -9,7 +9,8 @@ module Onoff
         label = content_tag(:label, lbl, {
           class: "onoffswitch-label", for: options[:target] })
         input = content_tag(:input, nil, {
-          class: "onoffswitch-checkbox", id: options[:target] })
+          class: "onoffswitch-checkbox",
+          id: options[:target], type: "checkbox" })
         lbl =  ERB::Util.html_escape(input)
         lbl += ERB::Util.html_escape(label)
         content_tag(:div, lbl, { class: "onoffswitch" })

@@ -1,5 +1,5 @@
-# Rails RateIt [![Gem Version](https://badge.fury.io/gh/berikin%2Fjquery-onoff-rails.svg)](https://badge.fury.io/gh/berikin%2Fjquery-onoff-rails.svg)[![Build Status](https://travis-ci.org/berikin/jquery-onoff-rails.svg?branch=v0.4.0)](https://travis-ci.org/berikin/jquery-onoff-rails)
-Rails wrapper for the jQuery RateIt plugin with improved SVG images!
+# jQuery OnOff Rails [![Gem Version](https://badge.fury.io/gh/berikin%2Fjquery-onoff-rails.svg)](https://badge.fury.io/gh/berikin%2Fjquery-onoff-rails.svg)[![Build Status](https://travis-ci.org/berikin/jquery-onoff-rails.svg?branch=v0.4.0)](https://travis-ci.org/berikin/jquery-onoff-rails)
+Rails wrapper for the jQuery OnOff plugin
 
 ![demo](demo/onoff.gif)
 

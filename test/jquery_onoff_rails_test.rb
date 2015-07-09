@@ -51,6 +51,13 @@ class JqueryOnoffRailsTest < ActionDispatch::IntegrationTest
     assert_select "span.onoffswitch-switch"
   end
 
+  test "extra options should be passed to checkbox" do
+    get "/checked_switcher"
+    assert_response :success
+    assert_select "input.onoffswitch-checkbox[checked]"
+  end
+
+
   private
 
   def clean_sprockets_cache
